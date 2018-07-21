@@ -1,16 +1,24 @@
 <template>
   <div id="app">
-    <mt-button type="danger">danger</mt-button>
-    <router-view/>
+    <q-header></q-header>
+    <router-view></router-view>
+    <q-bottom></q-bottom>
   </div>
 </template>
 
 <script>
+  import QHeader from './components/q-header/QHeader.vue'
+  import QBottom from './components/q-bottom/QBottom.vue'
   export default {
-    name: 'App'
+    name: 'App',
+    components: {
+      QHeader,
+      QBottom
+    }
   }
 </script>
 
-<style>
-
+<style lang="stylus">
+  #app
+    position relative
 </style>
