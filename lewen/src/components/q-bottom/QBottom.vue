@@ -93,6 +93,7 @@
     align-items center
     border-top 1px solid #888
     height 45px
+    background-color #fff
     .bottom-item
       text-align center
       flex 1

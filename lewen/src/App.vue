@@ -21,4 +21,5 @@
 <style lang="stylus">
   #app
     position relative
+    overflow-x hidden
 </style>
