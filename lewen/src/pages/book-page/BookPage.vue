@@ -44,8 +44,10 @@
 </script>
 
 <style lang="stylus" scoped>
+  @import '../../common/stylus/colors.styl';
   .book-page
     margin 45px 0
+    background-color $page-bg-color
     .banner-title
       font-weight 700
       text-align center
@@ -53,4 +55,8 @@
     .book-list
       display flex
       flex-flow wrap
+      justify-content space-around
+      .book-item
+        width 50%
+        margin 10px 0
 </style>
